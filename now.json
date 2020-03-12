@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/sinatra/index.ru",
+      "use": "@now/ruby"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "api/sinatra/index.ru"
+    }
+  ]
+}
